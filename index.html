@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" id="html-root">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سياسة الخصوصية | مبيداتي الزراعية - Mobidaty Privacy Policy</title>
+  <meta name="description" content="سياسة الخصوصية الرسمية لتطبيق مبيداتي الزراعية (Mobidaty). تعرف على كيفية حماية بياناتك وأمان استخدامك للتطبيق.">
+  <meta name="keywords" content="مبيداتي الزراعية, Mobidaty, سياسة الخصوصية, Privacy Policy, com.mobidaty.app, مبيدات, منتجات زراعية">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="سياسة الخصوصية | مبيداتي الزراعية (Mobidaty)">
+  <meta property="og:description" content="سياسة الخصوصية وشروط الاستخدام لتطبيق مبيداتي الزراعية على متجر Google Play و App Store.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="logo.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="logo.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #1b4332;
+      --primary-hover: #143526;
+      --primary-light: #e8f5e9;
+      --primary-border: #c8e6c9;
+      --accent: #2d6a4f;
+      --accent-bright: #40916c;
+      --accent-glow: rgba(45, 106, 79, 0.15);
+      --dark: #081c15;
+      --gray-900: #1f2937;
+      --gray-700: #374151;
+      --gray-600: #4b5563;
+      --gray-500: #6b7280;
+      --gray-300: #d1d5db;
+      --gray-200: #e5e7eb;
+      --gray-100: #f3f4f6;
+      --gray-50: #f9fafb;
+      --white: #ffffff;
+      --success: #10b981;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.05);
+      --shadow-md: 0 4px 20px rgba(27, 67, 50, 0.08);
+      --shadow-lg: 0 12px 35px rgba(27, 67, 50, 0.12);
+      --transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Cairo', 'Plus Jakarta Sans', sans-serif;
+      background-color: #f7faf7;
+      color: var(--gray-700);
+      line-height: 1.8;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Language visibility rules */
+    html[lang="ar"] .lang-en { display: none !important; }
+    html[lang="ar"] .lang-ar { display: block; }
+    html[lang="ar"] span.lang-ar,
+    html[lang="ar"] a.lang-ar,
+    html[lang="ar"] strong.lang-ar { display: inline !important; }
+
+    html[lang="en"] .lang-ar { display: none !important; }
+    html[lang="en"] .lang-en { display: block; }
+    html[lang="en"] span.lang-en,
+    html[lang="en"] a.lang-en,
+    html[lang="en"] strong.lang-en { display: inline !important; }
+
+    html[lang="en"] body {
+      font-family: 'Plus Jakarta Sans', 'Cairo', sans-serif;
+    }
+
+    /* Header & Navigation */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(27, 67, 50, 0.1);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .nav-container {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 0.85rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--dark);
+    }
+
+    .brand-logo {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(27, 67, 50, 0.18);
+      border: 1px solid var(--primary-border);
+      background: #fff;
+    }
+
+    .brand-text h1 {
+      font-size: 1.2rem;
+      font-weight: 800;
+      color: var(--primary);
+      line-height: 1.2;
+    }
+
+    .brand-text p {
+      font-size: 0.78rem;
+      color: var(--gray-500);
+      font-weight: 500;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .lang-btn {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--primary-light);
+      border: 1px solid var(--primary-border);
+      color: var(--primary);
+      padding: 7px 14px;
+      border-radius: var(--radius-sm);
+      font-size: 0.85rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: var(--transition);
+      font-family: inherit;
+    }
+
+    .lang-btn:hover {
+      background: var(--primary);
+      color: var(--white);
+      transform: translateY(-1px);
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%);
+      color: var(--white);
+      padding: 3.5rem 1.5rem 3rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(82, 183, 136, 0.12) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      padding: 4px 14px;
+      border-radius: 50px;
+      font-size: 0.82rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+    }
+
+    .hero h2 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      margin-bottom: 0.75rem;
+      line-height: 1.3;
+    }
+
+    .hero p {
+      font-size: 1rem;
+      opacity: 0.92;
+      max-width: 650px;
+      margin: 0 auto 1.5rem;
+      font-weight: 400;
+    }
+
+    .meta-bar {
+      display: inline-flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.25rem;
+      background: rgba(0, 0, 0, 0.2);
+      padding: 8px 20px;
+      border-radius: var(--radius-md);
+      font-size: 0.82rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .meta-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* Main Container */
+    .container {
+      max-width: 980px;
+      margin: -1.5rem auto 3rem;
+      padding: 0 1.5rem;
+      position: relative;
+      z-index: 10;
+    }
+
+    /* Sticky Quick Nav */
+    .quick-nav {
+      background: var(--white);
+      border-radius: var(--radius-md);
+      padding: 0.75rem 1rem;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--gray-200);
+      margin-bottom: 1.5rem;
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      white-space: nowrap;
+      scrollbar-width: thin;
+    }
+
+    .quick-nav a {
+      display: inline-block;
+      text-decoration: none;
+      color: var(--gray-700);
+      font-size: 0.85rem;
+      font-weight: 600;
+      padding: 6px 12px;
+      border-radius: var(--radius-sm);
+      background: var(--gray-100);
+      transition: var(--transition);
+    }
+
+    .quick-nav a:hover {
+      background: var(--primary);
+      color: var(--white);
+    }
+
+    /* Policy Cards */
+    .policy-card {
+      background: var(--white);
+      border-radius: var(--radius-md);
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+      border: 1px solid rgba(27, 67, 50, 0.08);
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+    }
+
+    .policy-card:hover {
+      box-shadow: var(--shadow-md);
+      border-color: rgba(45, 106, 79, 0.2);
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 2px solid var(--primary-light);
+    }
+
+    .card-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      background: var(--primary-light);
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      flex-shrink: 0;
+    }
+
+    .card-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--dark);
+    }
+
+    .policy-card p {
+      margin-bottom: 1rem;
+      color: var(--gray-700);
+    }
+
+    .policy-card ul {
+      margin: 0.5rem 1.5rem 1.25rem;
+    }
+
+    .policy-card li {
+      margin-bottom: 0.5rem;
+      color: var(--gray-700);
+    }
+
+    .policy-card li strong {
+      color: var(--dark);
+    }
+
+    /* Highlight Alerts */
+    .alert-box {
+      border-radius: var(--radius-sm);
+      padding: 1rem 1.25rem;
+      margin: 1.25rem 0;
+      border-left: 4px solid var(--accent);
+      background: #f4fbf7;
+    }
+
+    html[dir="rtl"] .alert-box {
+      border-left: none;
+      border-right: 4px solid var(--accent);
+    }
+
+    .alert-box.danger {
+      border-color: var(--danger);
+      background: #fef2f2;
+    }
+
+    .alert-box.info {
+      border-color: #3b82f6;
+      background: #eff6ff;
+    }
+
+    .alert-title {
+      font-weight: 700;
+      font-size: 0.95rem;
+      margin-bottom: 0.35rem;
+      color: var(--dark);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* Grid for Permissions and SDKs */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+
+    .item-box {
+      background: var(--gray-50);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius-sm);
+      padding: 1rem;
+      transition: var(--transition);
+    }
+
+    .item-box:hover {
+      background: #ffffff;
+      border-color: var(--accent-bright);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+
+    .item-box h4 {
+      font-size: 0.98rem;
+      color: var(--primary);
+      margin-bottom: 0.35rem;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .item-box p {
+      font-size: 0.87rem;
+      color: var(--gray-600);
+      margin: 0;
+    }
+
+    /* Contact Cards */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1rem;
+      margin-top: 1.25rem;
+    }
+
+    .contact-btn {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 1rem 1.25rem;
+      background: var(--primary-light);
+      border: 1px solid var(--primary-border);
+      border-radius: var(--radius-sm);
+      text-decoration: none;
+      color: var(--dark);
+      transition: var(--transition);
+    }
+
+    .contact-btn:hover {
+      background: var(--primary);
+      color: var(--white);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .contact-btn .c-icon {
+      font-size: 1.5rem;
+    }
+
+    .contact-btn .c-text span {
+      display: block;
+      font-size: 0.78rem;
+      opacity: 0.8;
+    }
+
+    .contact-btn .c-text strong {
+      display: block;
+      font-size: 0.95rem;
+      direction: ltr;
+      unicode-bidi: embed;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--dark);
+      color: #9ca3af;
+      padding: 2.5rem 1.5rem 2rem;
+      border-top: 1px solid #1f2937;
+      text-align: center;
+      font-size: 0.88rem;
+    }
+
+    .footer-content {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-bottom: 1.25rem;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a {
+      color: #d1d5db;
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    .footer-links a:hover {
+      color: #52b788;
+    }
+
+    .footer-copy {
+      font-size: 0.8rem;
+      color: #6b7280;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero { padding: 2.5rem 1rem 2.25rem; }
+      .hero h2 { font-size: 1.6rem; }
+      .container { padding: 0 1rem; margin-top: -1rem; }
+      .policy-card { padding: 1.25rem; }
+      .card-title { font-size: 1.15rem; }
+      .meta-bar { flex-direction: column; gap: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="nav-container">
+      <a href="#" class="brand">
+        <img src="logo.png" alt="مبيداتي الزراعية" class="brand-logo" onerror="this.src='logo.svg'">
+        <div class="brand-text">
+          <h1 class="lang-ar">مبيداتي الزراعية</h1>
+          <h1 class="lang-en">Mobidaty</h1>
+          <p class="lang-ar">منصة تسوق المنتجات والمستلزمات الزراعية</p>
+          <p class="lang-en">Agricultural Products & Supplies Platform</p>
+        </div>
+      </a>
+      <div class="nav-actions">
+        <button class="lang-btn" onclick="toggleLanguage()" id="langToggleBtn" aria-label="Toggle language">
+          🌐 <span id="langBtnText">English</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-badge">
+      <span class="lang-ar">وثيقة رسمية معتمدة لمتجر Google Play و App Store</span>
+      <span class="lang-en">Official Policy for Google Play & App Store</span>
+    </div>
+    <h2 class="lang-ar">سياسة الخصوصية وشروط الاستخدام</h2>
+    <h2 class="lang-en">Privacy Policy & Terms of Service</h2>
+    <p class="lang-ar">
+      توضح هذه السياسة كيفية جمع واستخدام وحماية البيانات الشخصية لمستخدمي تطبيق "مبيداتي الزراعية" لضمان تجربة آمنة وموثوقة.
+    </p>
+    <p class="lang-en">
+      This policy explains how Mobidaty collects, uses, and protects personal data, ensuring a secure and reliable experience for all users.
+    </p>
+    <div class="meta-bar">
+      <div class="meta-item">
+        <span>📦</span>
+        <strong>com.mobidaty.app</strong>
+      </div>
+      <div class="meta-item">
+        <span>📅</span>
+        <span class="lang-ar">آخر تحديث: سبتمبر ٢٠٢٦</span>
+        <span class="lang-en">Last Updated: September 2026</span>
+      </div>
+      <div class="meta-item">
+        <span>👤</span>
+        <span class="lang-ar">المطور: محمود قرني</span>
+        <span class="lang-en">Developer: Mahmoud Korany</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="container">
+
+    <!-- Quick Navigation Links -->
+    <nav class="quick-nav">
+      <a href="#section-1"><span class="lang-ar">١. نظرة عامة</span><span class="lang-en">1. Overview</span></a>
+      <a href="#section-2"><span class="lang-ar">٢. البيانات المجمعة</span><span class="lang-en">2. Data Collected</span></a>
+      <a href="#section-3"><span class="lang-ar">٣. الأذونات المطلوبة</span><span class="lang-en">3. Permissions</span></a>
+      <a href="#section-4"><span class="lang-ar">٤. خدمات الطرف الثالث</span><span class="lang-en">4. Third-Party</span></a>
+      <a href="#section-5"><span class="lang-ar">٥. أمان البيانات</span><span class="lang-en">5. Security</span></a>
+      <a href="#section-deletion"><span class="lang-ar">٦. حذف الحساب والبيانات</span><span class="lang-en">6. Account Deletion</span></a>
+      <a href="#section-7"><span class="lang-ar">٧. الأطفال وحقوق المستخدم</span><span class="lang-en">7. Children & Rights</span></a>
+      <a href="#section-8"><span class="lang-ar">٨. الاتصال والدعم</span><span class="lang-en">8. Contact Us</span></a>
+    </nav>
+
+    <!-- Section 1: Overview -->
+    <article class="policy-card" id="section-1">
+      <div class="card-header">
+        <div class="card-icon">🌱</div>
+        <h3 class="card-title lang-ar">١. مقدمة ونطاق التطبيق</h3>
+        <h3 class="card-title lang-en">1. Introduction & Scope</h3>
+      </div>
+      <div class="lang-ar">
+        <p>
+          أهلاً بكم في تطبيق <strong>مبيداتي الزراعية</strong> (Mobidaty)، المنصة الإلكترونية الرائدة المخصصة لخدمة المزارعين والتجار والمهتمين بالقطاع الزراعي في تصفح وطلب المبيدات المعتمدة، الأسمدة، البذور، ومستلزمات الحقول والمزارع.
+        </p>
+        <p>
+          تنطبق سياسة الخصوصية هذه على جميع مستخدمي التطبيق (معرف الحزمة: <code>com.mobidaty.app</code>). عند تثبيت التطبيق أو استخدامه، فإنك توافق على ممارسات جمع البيانات واستخدامها الموضحة في هذا المستند وفقاً للأنظمة المعمول بها وسياسات حماية البيانات لمتجر Google Play و Apple App Store.
+        </p>
+      </div>
+      <div class="lang-en">
+        <p>
+          Welcome to <strong>Mobidaty</strong> (مبيداتي الزراعية), the dedicated digital platform serving farmers, agricultural merchants, and growers in purchasing certified pesticides, fertilizers, seeds, and farming equipment.
+        </p>
+        <p>
+          This Privacy Policy applies to all users of the mobile application (Package ID: <code>com.mobidaty.app</code>). By downloading, accessing, or using Mobidaty, you acknowledge and agree to the data collection and processing practices described herein, compliant with Google Play Store and Apple App Store privacy mandates.
+        </p>
+      </div>
+    </article>
+
+    <!-- Section 2: Data Collection -->
+    <article class="policy-card" id="section-2">
+      <div class="card-header">
+        <div class="card-icon">📋</div>
+        <h3 class="card-title lang-ar">٢. المعلومات التي نقوم بجمعها</h3>
+        <h3 class="card-title lang-en">2. Information We Collect</h3>
+      </div>
+      <div class="lang-ar">
+        <p>نقوم بجمع الحد الأدنى والضروري فقط من المعلومات لتقديم خدماتنا الزراعية والتوصيل بكفاءة عالية:</p>
+        <ul>
+          <li><strong>معلومات الحساب والتسجيل:</strong> الاسم الكامل، رقم الهاتف المحمول (للتحقق وتأكيد الطلبات عبر SMS)، وعنوان البريد الإلكتروني.</li>
+          <li><strong>بيانات العناوين والتوصيل:</strong> مواقع المزارع والمستودعات وعناوين التسليم التي يحددها المستخدم لتوصيل الشحنات الزراعية.</li>
+          <li><strong>بيانات الموقع الجغرافي (GPS Location):</strong> الموقع الدقيق أو التقريبي عند تفعيلك لخاصية تحديد عنوان التوصيل أو البحث عن الموزعين والمستودعات الزراعية القريبة منك.</li>
+          <li><strong>الصور والملفات:</strong> الصور التي يرفعها المستخدم بمحض إرادته (مثل صور تشخيص الآفات الزراعية، صور إيصالات التحويل البنكي، أو صورة الملف الشخصي).</li>
+          <li><strong>معلومات الجهاز والتشغيل:</strong> نوع الجهاز، إصدار نظام التشغيل (Android / iOS)، معرف الإعلانات (Google Advertising ID - AD_ID)، وسجلات الأخطاء لضمان استقرار التطبيق.</li>
+        </ul>
+        <div class="alert-box info">
+          <div class="alert-title">🔒 أمان المدفوعات والبطاقات</div>
+          <p>
+            لا يقوم تطبيق "مبيداتي الزراعية" بتخزين أرقام بطاقات الائتمان أو رمز الأمان (CVV) على خوادمنا نهائياً. تتم معالجة جميع المدفوعات الإلكترونية عبر بوابات دفع بنكية معتمدة ومشفرة (Moyasar) وفق معيار الأمان العالمي PCI-DSS.
+          </p>
+        </div>
+      </div>
+      <div class="lang-en">
+        <p>We collect only the essential information necessary to provide seamless agricultural shopping and reliable order fulfillment:</p>
+        <ul>
+          <li><strong>Account & Profile Details:</strong> Full name, phone number (used for SMS verification and delivery confirmation), and email address.</li>
+          <li><strong>Delivery & Farm Addresses:</strong> Specified delivery addresses, farm locations, and warehouse delivery notes.</li>
+          <li><strong>Location Information:</strong> Precise and approximate geographic coordinates when locating delivery destinations or finding nearby agricultural supply points.</li>
+          <li><strong>Images & Files:</strong> Photos intentionally uploaded by users, such as crop pest photos for consultation, payment receipts, or profile avatars.</li>
+          <li><strong>Device & Analytics Data:</strong> Device model, OS version, Google Advertising ID (AD_ID), crash telemetry, and performance logs.</li>
+        </ul>
+        <div class="alert-box info">
+          <div class="alert-title">🔒 Payment Security</div>
+          <p>
+            Mobidaty never stores your credit card numbers, Mada details, or CVV codes on our servers. All financial transactions are processed securely through certified payment gateways (Moyasar) compliant with PCI-DSS standards.
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <!-- Section 3: App Permissions -->
+    <article class="policy-card" id="section-3">
+      <div class="card-header">
+        <div class="card-icon">🔑</div>
+        <h3 class="card-title lang-ar">٣. الأذونات التي يطلبها التطبيق</h3>
+        <h3 class="card-title lang-en">3. App Permissions & Why They Are Needed</h3>
+      </div>
+      <div class="lang-ar">
+        <p>يطلب التطبيق أذونات محددة من نظام التشغيل فقط لتقديم الوظائف الأساسية:</p>
+        <div class="grid-2">
+          <div class="item-box">
+            <h4>📍 إذن الموقع (Location)</h4>
+            <p><code>ACCESS_FINE_LOCATION</code> و <code>ACCESS_COARSE_LOCATION</code> لتحديد موقع الحقل أو المزرعة بدقة على الخريطة لتسليم الشحنات وتحديد أقرب فرع للتوزيع.</p>
+          </div>
+          <div class="item-box">
+            <h4>📷 إذن الكاميرا والمعرض (Camera & Storage)</h4>
+            <p><code>CAMERA</code> و <code>READ_EXTERNAL_STORAGE</code> لالتقاط ورفع صور الآفات الزراعية للاستشارة أو إرفاق إيصالات السداد وتحديث صورة الملف الشخصي.</p>
+          </div>
+          <div class="item-box">
+            <h4>🔔 إذن الإشعارات (Push Notifications)</h4>
+            <p><code>POST_NOTIFICATIONS</code> لإرسال تنبيهات حالة الطلبات، مواعيد خروج الشحنات مع المندوب، والعروض الموسمية للمبيدات والأسمدة.</p>
+          </div>
+          <div class="item-box">
+            <h4>📶 إذن الاتصال بالإنترنت (Network)</h4>
+            <p><code>INTERNET</code> للتواصل مع خوادم التطبيق وتحديث أسعار المنتجات والمخزون وإتمام عمليات الشراء والتحقق.</p>
+          </div>
+        </div>
+      </div>
+      <div class="lang-en">
+        <p>Mobidaty requests explicit permissions strictly when required for specific in-app functionalities:</p>
+        <div class="grid-2">
+          <div class="item-box">
+            <h4>📍 Location Permission</h4>
+            <p><code>ACCESS_FINE_LOCATION</code> and <code>ACCESS_COARSE_LOCATION</code> to pinpoint farm coordinates for delivery routing and locating local distributors.</p>
+          </div>
+          <div class="item-box">
+            <h4>📷 Camera & Storage</h4>
+            <p><code>CAMERA</code> and <code>READ_EXTERNAL_STORAGE</code> to take or select photos of crops for diagnostic advice, payment proof, or profile setup.</p>
+          </div>
+          <div class="item-box">
+            <h4>🔔 Push Notifications</h4>
+            <p><code>POST_NOTIFICATIONS</code> to deliver real-time order status updates, delivery tracking alerts, and seasonal agricultural offers.</p>
+          </div>
+          <div class="item-box">
+            <h4>📶 Internet Access</h4>
+            <p><code>INTERNET</code> and network state checks to sync catalogs, retrieve live stock availability, and securely transmit orders.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Section 4: Third-Party Services -->
+    <article class="policy-card" id="section-4">
+      <div class="card-header">
+        <div class="card-icon">⚙️</div>
+        <h3 class="card-title lang-ar">٤. خدمات الطرف الثالث</h3>
+        <h3 class="card-title lang-en">4. Third-Party Integrations & SDKs</h3>
+      </div>
+      <div class="lang-ar">
+        <p>نستعين بشركاء موثوقين ومزودي خدمات ذوي سمعة عالمية لتحسين تجربة المستخدم وأداء التطبيق:</p>
+        <ul>
+          <li><strong>خدمات خرائط جوجل (Google Maps SDK):</strong> لعرض الخرائط وتحديد العناوين ومسارات التوصيل بدقة.</li>
+          <li><strong>منصة Google Firebase:</strong> نستخدم Firebase Cloud Messaging (FCM) لإرسال الإشعارات الفورية، وFirebase Analytics لتحليل الاستخدام وتحسين الأداء واستقرار التطبيق.</li>
+          <li><strong>بوابة الدفع الإلكتروني ميسر (Moyasar):</strong> لإجراء عمليات الدفع ببطاقات مدى، فيزا، ماستركارد، وApple Pay بصورة مشفرة وآمنة تماماً.</li>
+        </ul>
+        <p>تخضع هذه الخدمات لسياسات الخصوصية الخاصة بمزوديها، ولا نشارك أي بيانات تتجاوز ما يلزم لتقديم الخدمة.</p>
+      </div>
+      <div class="lang-en">
+        <p>We work with trusted third-party providers to enhance app performance and facilitate core operations:</p>
+        <ul>
+          <li><strong>Google Maps Platform:</strong> For accurate address pinning, farm geolocation, and navigation.</li>
+          <li><strong>Google Firebase Services:</strong> Firebase Cloud Messaging (FCM) for push notifications, and Firebase Analytics for crash telemetry and quality improvements.</li>
+          <li><strong>Moyasar Payment Gateway:</strong> For processing credit cards, Mada, and Apple Pay under banking-level encryption standards.</li>
+        </ul>
+        <p>Each third-party service operates under its own privacy policy and only receives data strictly required to deliver their respective service.</p>
+      </div>
+    </article>
+
+    <!-- Section 5: Data Security -->
+    <article class="policy-card" id="section-5">
+      <div class="card-header">
+        <div class="card-icon">🛡️</div>
+        <h3 class="card-title lang-ar">٥. أمان البيانات وحفظها</h3>
+        <h3 class="card-title lang-en">5. Data Security & Retention</h3>
+      </div>
+      <div class="lang-ar">
+        <p>
+          نلتزم بأعلى معايير الأمان لحماية بياناتك من الوصول غير المصرح به أو التعديل أو الإفصاح. يتم نقل جميع البيانات عبر اتصالات مشفرة باستخدام بروتوكول طبقة المنافذ الآمنة (HTTPS / TLS 1.3).
+        </p>
+        <p>
+          يتم تخزين بياناتك الشخصية في قواعد بيانات مؤمنة مع قيود وصول صارمة تقتصر على الموظفين المخولين فقط لإتمام عمليات الطلب والدعم الفني. نحتفظ بالبيانات طالما كان حسابك نشطاً أو بالقدر اللازم للامتثال للالتزامات القانونية والضريبية.
+        </p>
+      </div>
+      <div class="lang-en">
+        <p>
+          We employ robust technical and organizational security measures to protect your personal information from unauthorized access, alteration, or disclosure. All data transmissions are encrypted using standard HTTPS / TLS 1.3 cryptographic protocols.
+        </p>
+        <p>
+          User records are stored within protected cloud environments with strict role-based access controls. Data is retained only as long as your account remains active or as required by applicable tax, accounting, and consumer protection laws.
+        </p>
+      </div>
+    </article>
+
+    <!-- Section 6: Account Deletion (Google Play Compliance) -->
+    <article class="policy-card" id="section-deletion">
+      <div class="card-header">
+        <div class="card-icon">🗑️</div>
+        <h3 class="card-title lang-ar">٦. حذف الحساب والبيانات (Google Play Requirement)</h3>
+        <h3 class="card-title lang-en">6. Account & Data Deletion Policy</h3>
+      </div>
+      <div class="lang-ar">
+        <div class="alert-box danger">
+          <div class="alert-title">حقك الكامل في حذف بياناتك وحسابك</div>
+          <p>
+            امتثالاً لسياسات Google Play ومتطلبات حماية خصوصية المستخدمين، نوفر للمستخدمين آلية واضحة ومباشرة لحذف حساباتهم وجميع بياناتهم الشخصية في أي وقت.
+          </p>
+        </div>
+        <p><strong>كيفية طلب حذف الحساب:</strong></p>
+        <ul>
+          <li><strong>من داخل التطبيق مباشرة:</strong> انتقل إلى <em>الملف الشخصي</em> &gt; <em>الإعدادات</em> &gt; واضغط على <strong>حذف الحساب (Delete Account)</strong> وتأكيد الطلب.</li>
+          <li><strong>عبر البريد الإلكتروني:</strong> يمكنك إرسال بريد إلكتروني إلى <a href="mailto:contact@mobidaty.app">contact@mobidaty.app</a> مع كتابة موضوع الرسالة: <em>"طلب حذف حساب مبيداتي"</em> مع ذكر رقم هاتفك المسجل في التطبيق.</li>
+        </ul>
+        <p><strong>ما الذي يحدث عند حذف حسابك؟</strong></p>
+        <ul>
+          <li>يتم حذف ملفك الشخصي، اسمك، بريدك، سجل عناوورك، وسجلات البحث نهائياً من خوادمنا النشطة خلال ٣٠ يوماً.</li>
+          <li>قد يتم الاحتفاظ بفواتير الشراء المكتملة فقط للفترة التي تفرضها الأنظمة التجارية والضريبية الرسمية.</li>
+        </ul>
+      </div>
+      <div class="lang-en">
+        <div class="alert-box danger">
+          <div class="alert-title">Your Right to Delete Account & Data</div>
+          <p>
+            In compliance with Google Play Store User Data policies, Mobidaty provides an easy and clear pathway for all users to request the permanent deletion of their account and associated personal data.
+          </p>
+        </div>
+        <p><strong>How to Delete Your Account:</strong></p>
+        <ul>
+          <li><strong>Directly In-App:</strong> Navigate to <em>Profile</em> &gt; <em>Settings</em> &gt; tap <strong>Delete Account</strong>, and follow the confirmation prompts.</li>
+          <li><strong>Via Support Email:</strong> Send an email to <a href="mailto:contact@mobidaty.app">contact@mobidaty.app</a> with the subject line <em>"Account Deletion Request - Mobidaty"</em> including your registered phone number.</li>
+        </ul>
+        <p><strong>What Happens Upon Deletion:</strong></p>
+        <ul>
+          <li>Your profile, contact information, addresses, and saved preferences are permanently erased from our production servers within 30 days.</li>
+          <li>Historical order receipts may only be archived to the extent legally required for tax, accounting, and regulatory compliance.</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- Section 7: Children & Rights -->
+    <article class="policy-card" id="section-7">
+      <div class="card-header">
+        <div class="card-icon">⚖️</div>
+        <h3 class="card-title lang-ar">٧. خصوصية الأطفال وحقوق المستخدم</h3>
+        <h3 class="card-title lang-en">7. Children’s Privacy & User Rights</h3>
+      </div>
+      <div class="lang-ar">
+        <p><strong>خصوصية الأطفال:</strong></p>
+        <p>
+          تطبيق "مبيداتي الزراعية" غير موجه للأطفال ومن هم دون سن ١٨ عاماً، نظراً لطبيعة المنتجات الزراعية والمبيدات التي تتطلب رعاية وإشرافاً قانونياً واستخداماً مهنياً. نحن لا نجمع عن عمد أي بيانات شخصية من القاصرين. إذا نمى إلى علمنا جمع بيانات عن قاصر، نقوم بحذفها فوراً.
+        </p>
+        <p><strong>حقوقك كمستخدم:</strong></p>
+        <ul>
+          <li>الحق في الوصول إلى بياناتك والاطلاع عليها.</li>
+          <li>الحق في تصحيح أو تعديل أي بيانات غير دقيقة.</li>
+          <li>الحق في الاعتراض على معالجة البيانات أو سحب الموافقة على الأذونات الاختيارية.</li>
+          <li>الحق في طلب مسح بياناتك وفقاً للقسم السادس أعلاه.</li>
+        </ul>
+      </div>
+      <div class="lang-en">
+        <p><strong>Children's Privacy:</strong></p>
+        <p>
+          Mobidaty is strictly intended for adult farmers, business owners, and agricultural professionals (18 years of age or older). Due to regulations surrounding pesticides and agricultural chemicals, we do not knowingly solicit or collect personal information from children under 18.
+        </p>
+        <p><strong>Your Legal Rights:</strong></p>
+        <ul>
+          <li>Right to access and review your stored personal information.</li>
+          <li>Right to rectify inaccurate or incomplete records.</li>
+          <li>Right to restrict or withdraw consent for optional device permissions at any time via device settings.</li>
+          <li>Right to complete data erasure as outlined in Section 6.</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- Section 8: Contact Us -->
+    <article class="policy-card" id="section-8">
+      <div class="card-header">
+        <div class="card-icon">✉️</div>
+        <h3 class="card-title lang-ar">٨. التواصل والدعم الفني</h3>
+        <h3 class="card-title lang-en">8. Contact Information & Support</h3>
+      </div>
+      <div class="lang-ar">
+        <p>
+          إذا كانت لديك أي استفسارات أو ملاحظات بخصوص سياسة الخصوصية، أو رغبت في ممارسة أي من حقوقك، يمكنك التواصل معنا مباشرة عبر:
+        </p>
+        <div class="contact-grid">
+          <a href="mailto:contact@mobidaty.app" class="contact-btn">
+            <span class="c-icon">📧</span>
+            <div class="c-text">
+              <span>البريد الإلكتروني الرسمي</span>
+              <strong>contact@mobidaty.app</strong>
+            </div>
+          </a>
+          <a href="mailto:mahmoud01090677934@gmail.com" class="contact-btn">
+            <span class="c-icon">👨‍💻</span>
+            <div class="c-text">
+              <span>بريد المطور</span>
+              <strong>mahmoud01090677934@gmail.com</strong>
+            </div>
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.mobidaty.app" target="_blank" rel="noopener noreferrer" class="contact-btn">
+            <span class="c-icon">📱</span>
+            <div class="c-text">
+              <span>تطبيق متجر Google Play</span>
+              <strong>com.mobidaty.app</strong>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="lang-en">
+        <p>
+          If you have questions, feedback, or data requests regarding this Privacy Policy, please reach out to our team through any of the following channels:
+        </p>
+        <div class="contact-grid">
+          <a href="mailto:contact@mobidaty.app" class="contact-btn">
+            <span class="c-icon">📧</span>
+            <div class="c-text">
+              <span>Official Support Email</span>
+              <strong>contact@mobidaty.app</strong>
+            </div>
+          </a>
+          <a href="mailto:mahmoud01090677934@gmail.com" class="contact-btn">
+            <span class="c-icon">👨‍💻</span>
+            <div class="c-text">
+              <span>Developer Contact</span>
+              <strong>mahmoud01090677934@gmail.com</strong>
+            </div>
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.mobidaty.app" target="_blank" rel="noopener noreferrer" class="contact-btn">
+            <span class="c-icon">📱</span>
+            <div class="c-text">
+              <span>Google Play Store</span>
+              <strong>com.mobidaty.app</strong>
+            </div>
+          </a>
+        </div>
+      </div>
+    </article>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-links">
+        <a href="#section-1"><span class="lang-ar">سياسة الخصوصية</span><span class="lang-en">Privacy Policy</span></a>
+        <a href="#section-deletion"><span class="lang-ar">حذف الحساب</span><span class="lang-en">Account Deletion</span></a>
+        <a href="#section-8"><span class="lang-ar">الدعم والمساعدة</span><span class="lang-en">Support</span></a>
+        <a href="https://github.com/mahmoudKorany/mobidaty-privacy-policy" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+      </div>
+      <p class="footer-copy lang-ar">
+        © ٢٠٢٦ مبيداتي الزراعية (Mobidaty). جميع الحقوق محفوظة. المنصة الإلكترونية لتسوق المنتجات والمستلزمات الزراعية.
+      </p>
+      <p class="footer-copy lang-en">
+        © 2026 Mobidaty. All rights reserved. The premier agricultural supplies & pesticide e-commerce platform.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleLanguage() {
+      const html = document.getElementById('html-root');
+      const btnText = document.getElementById('langBtnText');
+      const currentLang = html.getAttribute('lang');
+
+      if (currentLang === 'ar') {
+        html.setAttribute('lang', 'en');
+        html.setAttribute('dir', 'ltr');
+        btnText.textContent = 'العربية';
+        document.title = 'Privacy Policy | Mobidaty - سياسة الخصوصية';
+      } else {
+        html.setAttribute('lang', 'ar');
+        html.setAttribute('dir', 'rtl');
+        btnText.textContent = 'English';
+        document.title = 'سياسة الخصوصية | مبيداتي الزراعية - Mobidaty Privacy Policy';
+      }
+    }
+  </script>
+</body>
+</html>
